@@ -2,7 +2,7 @@
 
 ### Master
 
-Version: 1.0.0
+Version: 1.0.1
 
 [![Build status](https://ci.appveyor.com/api/projects/status/smtjkrxmhpsgwax7/branch/master?svg=true)](https://ci.appveyor.com/project/jeffbuenting/java/branch/master)
 

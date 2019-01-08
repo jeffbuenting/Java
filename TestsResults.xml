@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-01-08" time="23:41:52">
+  <environment user="appveyor" machine-name="APPVYR-WIN" cwd="C:\projects\java" user-domain="APPVYR-WIN" platform="Microsoft Windows Server 2012 R2 Datacenter|C:\windows|\Device\Harddisk0\Partition5" nunit-version="2.5.8.0" os-version="6.3.9600" clr-version="4.0.30319.42000" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="2.1309" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\projects\java\Java.tests.ps1" executed="True" result="Success" success="True" time="2.1309" asserts="0" description="C:\projects\java\Java.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="java : Module Tests" executed="True" result="Success" success="True" time="1.0673" asserts="0" description="java : Module Tests">
+            <results>
+              <test-case description="should have a test for each function" name="java : Module Tests.should have a test for each function" time="1.0673" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="java : Get-JavaExceptionList" executed="True" result="Success" success="True" time="0.8137" asserts="0" description="java : Get-JavaExceptionList">
+            <results>
+              <test-suite type="TestFixture" name="Output" executed="True" result="Success" success="True" time="0.8137" asserts="0" description="Output">
+                <results>
+                  <test-case description="Should return an array of Sites" name="java : Get-JavaExceptionList.Output.Should return an array of Sites" time="0.8137" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="java : Set-JavaExceptionList" executed="True" result="Success" success="True" time="0.2499" asserts="0" description="java : Set-JavaExceptionList">
+            <results>
+              <test-suite type="TestFixture" name="Output" executed="True" result="Success" success="True" time="0.2499" asserts="0" description="Output">
+                <results>
+                  <test-case description="Should Save to a file" name="java : Set-JavaExceptionList.Output.Should Save to a file" time="0.2499" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
